@@ -72,3 +72,13 @@ for (let index = 0; index < atag2.length; index++) {
     // more[index].style.height = "20px";
     atag2[index].className = "badge badge-primary";
 }
+
+var pTag = document.getElementsByTagName("p");
+var aP = pTag[0].getElementsByTagName("a");
+for (let index = 0; index < aP.length; index++) {
+    aP[index].removeAttribute("style");
+    // more[index].style.height = "20px";
+    aP[index].className = "badge badge-primary";
+}
+aP[0].innerHTML = "HungPT";
+aP[0].href = "https://www.facebook.com/hungpt.fu";
