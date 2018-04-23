@@ -66,7 +66,7 @@ for (let index = 0; index < atag.length; index++) {
 
 document.getElementById("ctl00_divSupporthcm").className = "col-lg-12 text-center";
 
-var atag2 = document.getElementsByTagName("a");
+var atag2 = document.getElementById("ctl00_divSupporthcm").getElementsByTagName("a");
 for (let index = 0; index < atag2.length; index++) {
     atag2[index].removeAttribute("style");
     // more[index].style.height = "20px";
